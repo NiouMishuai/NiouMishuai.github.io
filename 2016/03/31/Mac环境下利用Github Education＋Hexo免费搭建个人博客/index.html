@@ -72,7 +72,7 @@
 <meta property="og:image" content="http://7xsemm.com1.z0.glb.clouddn.com/blog1%2F5.png">
 <meta property="og:image" content="http://7xsemm.com1.z0.glb.clouddn.com/blog1%2F6.png">
 <meta property="og:image" content="http://7xsemm.com1.z0.glb.clouddn.com/blog1%2F7.png">
-<meta property="og:updated_time" content="2016-04-07T02:18:38.000Z">
+<meta property="og:updated_time" content="2016-06-21T16:45:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac环境下利用Github Education＋Hexo免费搭建个人博客">
 <meta name="twitter:description" content="安装HomebrewHomebrew是OS X不可或缺的套件管理器。Homebrew的所有文件均会被安装到预定义目录下。Homebrew以git、ruby为筋骨，可以自由修改和简单撤回修改或合并上游更新。Homebrew使OS X更完美。使用gem来安装gems、用brew来搞定那些依赖包。
@@ -298,14 +298,17 @@
 <p><strong>注意：Hexo有两个config.yml文件，一个在根目录，一个在theme下，此时修改的是在根目录下的。</strong></p>
 <p>更新主题：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$cd themes/next</span><br><span class="line">$git pull</span><br></pre></td></tr></table></figure></p>
 <p>使用简写命令重新生成文件并启动本地服务：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s -g</span><br></pre></td></tr></table></figure></p>
-<p>浏览器输入<a href="http://localhost:4000，查看搭建效果。" target="_blank" rel="external">http://localhost:4000，查看搭建效果。</a></p>
+<p>浏览器输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>，查看搭建效果。</p>
 <p>添加部署代码:<br>在站点配置文件－config.yml文件添加站点部署到Github的配置：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">     type:git</span><br><span class="line">     repository:https://github.com/username/username.github.io.git</span><br><span class="line">     branch: master</span><br></pre></td></tr></table></figure></p>
 <p>配置好后将本地代码提交到Github<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$hexo g</span><br><span class="line">$hexo d</span><br></pre></td></tr></table></figure></p>
-<p>访问<a href="http://username.github.io/看看" target="_blank" rel="external">http://username.github.io/看看</a></p>
+<p>访问<a href="http://username.github.io/" target="_blank" rel="external">http://username.github.io/</a>看看</p>
+<p><strong>注意</strong><br><em>在提交到Github上的时候，我们往往会提交一个README.md的文件，当README文件放在source文件夹下时，直接deploy到Github上的效果是README.md变成了README.html，这时的解决方案是修改Hexo目录下的_config.yml文件，将skip_render参数添加上。</em><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">skip_render: README.md</span><br></pre></td></tr></table></figure></p>
+<p><em><br>再次提交到Github时，hexo就不会把README.md渲染成README.html了。
+</em></p>
 <h3 id="第三方服务集成"><a href="#第三方服务集成" class="headerlink" title="第三方服务集成"></a>第三方服务集成</h3><h4 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h4><p>评论服务可以使用国内的多说或国外的DISUQS,我使用的是国内比较接地气的多说，它可以直接用QQ、微博、人人等账号登录进行评论</p>
 <h4 id="数据统计与分析"><a href="#数据统计与分析" class="headerlink" title="数据统计与分析"></a>数据统计与分析</h4><p>数据统计分析可以使用国内的百度统计或国外的Google Analyse，我使用的是Google Analytics，百度已经再走下坡路了（原因大家都懂的）</p>
 <h4 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h4><p>博客中的图片存储可以放在本地的image文件夹下，或者使用七牛云存储，将图片存放在七牛上可以享受CDN加速等功能。</p>
-<h3 id="使用Github-Education获取学生礼包"><a href="#使用Github-Education获取学生礼包" class="headerlink" title="使用Github Education获取学生礼包"></a>使用Github Education获取学生礼包</h3><p>进入Github Education官网（<a href="https://education.github.com/），" target="_blank" rel="external">https://education.github.com/），</a><br>Get the pack获取学生大礼包，使用学校的edu邮箱发出申请，过个一到两天会收到如下邮件：<br><img src="http://7xsemm.com1.z0.glb.clouddn.com/blog1%2F1.png" alt=""></p>
+<h3 id="使用Github-Education获取学生礼包"><a href="#使用Github-Education获取学生礼包" class="headerlink" title="使用Github Education获取学生礼包"></a>使用Github Education获取学生礼包</h3><p>进入Github Education官网（<a href="https://education.github.com/" target="_blank" rel="external">https://education.github.com/</a>），<br>Get the pack获取学生大礼包，使用学校的edu邮箱发出申请，过个一到两天会收到如下邮件：<br><img src="http://7xsemm.com1.z0.glb.clouddn.com/blog1%2F1.png" alt=""></p>
 <p>发现申请失败了，这是因为国内大学生大多不知道学校的edu邮箱，导致大量的edu邮箱被浪费，而被国内很多无良人士所利用，导致edu邮箱被Github封杀。</p>
 <p>解决方法是在上一步选择邮箱时选择 I don’t have a school-issued email，然后上传自己的学生证申请。</p>
 <p>按照要求完成后等待1到2天，就会收到如下邮件：<br><img src="http://7xsemm.com1.z0.glb.clouddn.com/blog1%2F2.png" alt=""></p>
