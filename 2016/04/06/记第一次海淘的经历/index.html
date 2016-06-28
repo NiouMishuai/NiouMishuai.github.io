@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="海淘," />
 
 
 
@@ -74,7 +74,7 @@
 <meta property="og:image" content="http://7xsemm.com1.z0.glb.clouddn.com/blog2%2F7.png">
 <meta property="og:image" content="http://7xsemm.com1.z0.glb.clouddn.com/blog2%2F8.png">
 <meta property="og:image" content="http://7xsemm.com1.z0.glb.clouddn.com/blog2%2F9.png">
-<meta property="og:updated_time" content="2016-04-07T17:06:12.000Z">
+<meta property="og:updated_time" content="2016-06-22T08:58:09.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="记第一次海淘的经历">
 <meta name="twitter:description" content="历经12天，我海淘的Nexus5x终于收到了！很高兴的是第一次海淘是赶在4月8日海淘新政之前收到的，并且没有被税！下面晒个图：">
@@ -169,8 +169,6 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
-            
             首页
           </a>
         </li>
@@ -178,8 +176,6 @@
         
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
             
             归档
           </a>
@@ -189,9 +185,15 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
-            
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+            关于
           </a>
         </li>
       
@@ -267,6 +269,15 @@
 
           
           
+             <span id="/2016/04/06/记第一次海淘的经历/" class="leancloud_visitors" data-flag-title="记第一次海淘的经历">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
 
         </div>
       </header>
@@ -323,6 +334,12 @@
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/海淘/" rel="tag">#海淘</a>
+          
+        </div>
       
 
       
@@ -418,6 +435,13 @@
           
 
           
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
 
         </nav>
 
@@ -434,6 +458,14 @@
                 </a>
               </span>
             
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/profile.php?id=100008405479075" target="_blank">
+                  
+                    <i class="fa fa-globe"></i> Facebook
+                  
+                </a>
+              </span>
+            
           
         </div>
 
@@ -441,6 +473,17 @@
         
 
         <div class="links-of-author motion-element">
+          
+            <p class="site-author-name">友情链接</p>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.xuwenhui.net" target="_blank">徐文辉的博客</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.cnblogs.com/luolei" target="_blank">罗雷的博客</a>
+              </span>
+            
           
         </div>
 
@@ -748,6 +791,99 @@
   
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("Rzh31ydovqsWP3FFrShCze7U-gzGzoHsz", "6eTguR4f4geT8Wee16IN7lKD");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
 
 </body>
