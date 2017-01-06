@@ -35,3 +35,5 @@
 ###   Kail中文网: http://www.kali.org.cn
 ###   FreeBuf: http://www.freebuf.com
 ###   开水的博客: http://www.hekaiyu.cn
+
+###   酷壳: http://coolshell.cn
