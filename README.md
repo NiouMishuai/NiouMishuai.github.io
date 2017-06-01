@@ -37,3 +37,6 @@
 ###   开水的博客: http://www.hekaiyu.cn
 
 ###   酷壳: http://coolshell.cn
+
+###   技术小黑屋: http://droidyue.com/
+###   咕咚: http://gudong.name/
