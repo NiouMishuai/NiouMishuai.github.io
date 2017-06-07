@@ -40,3 +40,5 @@
 
 ###   技术小黑屋: http://droidyue.com/
 ###   咕咚: http://gudong.name/
+
+###   腾讯Dev: http://dev.qq.com/
