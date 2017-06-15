@@ -42,3 +42,5 @@
 ###   咕咚: http://gudong.name/
 
 ###   腾讯Dev: http://dev.qq.com/
+
+###   少数派: https://sspai.com/
