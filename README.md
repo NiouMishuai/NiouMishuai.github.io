@@ -5,7 +5,6 @@
 ## 优质网站
 
 ###   扔物线(给高级 Android 工程师的进阶手册): http://hencoder.com/
-
 ###   稀土掘金: http://gold.xitu.io
 ###   干货集中营: http://gank.io
 ###   DIYCode: http://www.diycode.cc/
