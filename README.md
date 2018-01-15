@@ -5,18 +5,21 @@
 ## 优质网站
 
 ###   XPosed: http://repo.xposed.info/
-###   XDA: https://www.xda-developers.com/          
+###   XDA: https://www.xda-developers.com/  
+
 
 ###   稀土掘金: http://gold.xitu.io
 ###   Android技术周报: http://www.androidweekly.cn
 ###   DIYCode: http://www.diycode.cc/
 ###   codeKK: http://p.codekk.com
 ###   干货集中营: http://gank.io
-###   V2EX: https://www.v2ex.com/          
+###   V2EX: https://www.v2ex.com/  
+
   
 ###   开发者头条: http://toutiao.io/
 ###   码农头条: http://top.caibaojian.com/
-###   极客头条: http://geek.csdn.net/forum/65
+###   极客头条: http://geek.csdn.net/forum/65  
+
 
 ###   Android博客周刊: http://www.androidblog.cn          
 ###   GDG: http://chinagdg.org
@@ -24,15 +27,16 @@
 ###   AndroidGems: http://www.android-gems.com/category
 ###   AndroidArsenal: http://android-arsenal.com
 ###   AndroidBookMarks: http://adb.rocko.xyz
-###   CodePath: http://guides.codepath.com/android    
+###   CodePath: http://guides.codepath.com/android  
 
-###   DevTools: http://www.androiddevtools.cn        
 
+###   DevTools: http://www.androiddevtools.cn  
 
 
 ##    优质个人博客
 
-###   扔物线(给高级 Android 工程师的进阶手册): http://hencoder.com/               
+###   扔物线(给高级 Android 工程师的进阶手册): http://hencoder.com/  
+
 
 ###   Trinea: http://www.trinea.cn
 ###   泡在网上的日子: http://www.jcodecraeer.com
@@ -41,7 +45,7 @@
 ###   邓平凡的博客: http://blog.csdn.net/innost?viewmode=list
 ###   GitYuan: http://gityuan.com/
 ###   云在千峰: http://blog.chengyunfeng.com
-###   王垠的博客: http://www.yinwang.org/            
+###   王垠的博客: http://www.yinwang.org/  
 
 
 ##    其他
