@@ -4,7 +4,9 @@
 
 ## 优质网站
 
-###   扔物线(给高级 Android 工程师的进阶手册): http://hencoder.com/
+###   XPosed: http://repo.xposed.info/
+###   XDA: https://www.xda-developers.com/
+
 ###   稀土掘金: http://gold.xitu.io
 ###   干货集中营: http://gank.io
 ###   DIYCode: http://www.diycode.cc/
@@ -22,6 +24,8 @@
 ###   AndroidArsenal: http://android-arsenal.com
 ###   AndroidBookMarks: http://adb.rocko.xyz
 ###   CodePath: http://guides.codepath.com/android
+###
+###   扔物线(给高级 Android 工程师的进阶手册): http://hencoder.com/
 ### 
 ###   Trinea: http://www.trinea.cn
 ###   泡在网上的日子: http://www.jcodecraeer.com
