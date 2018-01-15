@@ -8,7 +8,7 @@
 ###   XDA: https://www.xda-developers.com/  
 
 </br>
-***
+-------------------------------------------------------
 
 ###   稀土掘金: http://gold.xitu.io
 ###   Android技术周报: http://www.androidweekly.cn
@@ -19,14 +19,14 @@
 ###   少数派: https://sspai.com/
 
 </br>
-***
+-------------------------------------------------------
   
 ###   开发者头条: http://toutiao.io/
 ###   码农头条: http://top.caibaojian.com/
 ###   极客头条: http://geek.csdn.net/forum/65  
 
 </br>
-***
+-------------------------------------------------------
 
 ###   Android博客周刊: http://www.androidblog.cn          
 ###   GDG: http://chinagdg.org
@@ -37,19 +37,19 @@
 ###   CodePath: http://guides.codepath.com/android  
 
 </br>
-***
+-------------------------------------------------------
 
 ###   DevTools: http://www.androiddevtools.cn  
 
 </br>
-***
+-------------------------------------------------------
 
 ##    优质个人博客
 
 ###   扔物线(给高级 Android 工程师的进阶手册): http://hencoder.com/  
 
 </br>
-***
+-------------------------------------------------------
 
 ###   Trinea: http://www.trinea.cn
 ###   泡在网上的日子: http://www.jcodecraeer.com
@@ -61,7 +61,7 @@
 ###   王垠的博客: http://www.yinwang.org/  
 
 </br>
-***
+-------------------------------------------------------
 
 ##    其他
 
@@ -70,7 +70,7 @@
 ###   开水的博客: http://www.hekaiyu.cn       
 
 </br>
-***
+-------------------------------------------------------
 
 ###   酷壳: http://coolshell.cn          
 
@@ -80,6 +80,6 @@
 ###   腾讯Dev: http://dev.qq.com/
 
 </br>
-***
+-------------------------------------------------------
 
 ###   伯乐在线: http://www.jobbole.com/
