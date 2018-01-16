@@ -2,13 +2,19 @@
 
 # http://www.dzxpro.me
 
-## 优质网站
+## 精品网站
 
-###   XPosed: http://repo.xposed.info/
-###   XDA: https://www.xda-developers.com/  
+###   少数派: https://sspai.com/
+###   虎嗅: https://www.huxiu.com/
+###   36氪: http://36kr.com/
+###   钛媒体: http://www.tmtpost.com/
+###   品玩: http://www.pingwest.com/
+
 
 </br>
 -------------------------------------------------------
+
+## 优质网站
 
 ###   稀土掘金: http://gold.xitu.io
 ###   Android技术周报: http://www.androidweekly.cn
@@ -16,8 +22,13 @@
 ###   codeKK: http://p.codekk.com
 ###   干货集中营: http://gank.io
 ###   V2EX: https://www.v2ex.com/  
-###   少数派: https://sspai.com/
 
+
+</br>
+-------------------------------------------------------
+
+###   XPosed: http://repo.xposed.info/
+###   XDA: https://www.xda-developers.com/  
 
 </br>
 -------------------------------------------------------
