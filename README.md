@@ -7,6 +7,8 @@
 ###   少数派: https://sspai.com/
 ###   虎嗅: https://www.huxiu.com/
 ###   36氪: http://36kr.com/
+###   爱范儿: http://www.ifanr.com/
+###   极客公园: http://www.geekpark.net/
 ###   钛媒体: http://www.tmtpost.com/
 ###   品玩: http://www.pingwest.com/
 
