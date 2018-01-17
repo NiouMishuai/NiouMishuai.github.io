@@ -2,7 +2,7 @@
 
 # http://www.dzxpro.me
 
-## 精品网站
+## 热门网站
 
 ###   少数派: https://sspai.com/
 ###   虎嗅: https://www.huxiu.com/
@@ -11,6 +11,10 @@
 ###   极客公园: http://www.geekpark.net/
 ###   钛媒体: http://www.tmtpost.com/
 ###   品玩: http://www.pingwest.com/
+###   雷锋网: https://www.leiphone.com/
+
+###   TechWeb: http://www.techweb.com.cn/
+###   cnBeta: http://www.cnbeta.com/
 
 
 </br>
