@@ -75,6 +75,7 @@
 </br>
 -------------------------------------------------------
 
+###   阮一峰的博客: http://www.ruanyifeng.com
 ###   Trinea: http://www.trinea.cn
 ###   泡在网上的日子: http://www.jcodecraeer.com
 ###   胡凯: http://hukai.me
